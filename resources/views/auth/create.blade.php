@@ -23,6 +23,18 @@
                 <p class="text-red-500">{{ $message }}</p>    
                 @enderror
 
+                <input name="inn" type="text" class="w-full h-12 border border-gray-800 rounded px-3 @error('inn') border-red-500 @enderror" placeholder="Инн" />
+
+                @error('inn')
+                <p class="text-red-500">{{ $message }}</p>    
+                @enderror
+
+                <input name="information" type="text" class="w-full h-12 border border-gray-800 rounded px-3 @error('information') border-red-500 @enderror" placeholder="Информация о компании" />
+
+                @error('information')
+                <p class="text-red-500">{{ $message }}</p>    
+                @enderror
+
                 <input name="telephone" class="w-full h-12 border border-gray-800 rounded px-3" placeholder="Телефон" />
 
                 <input name="director" class="w-full h-12 border border-gray-800 rounded px-3" placeholder="Директор" />

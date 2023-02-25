@@ -94,6 +94,8 @@ class AuthController extends Controller
         $data = $request->validate([
             "title" => ["required", "string"],
             "address" => ["required", "string", "unique:posts,address"],
+            "inn" => ["required", "string", "max:10"],
+            "information" => ["required", "string", "max:250"],
             "telephone" => ["required"],
             "director" => ["required", "string", "unique:posts,director"],
         ]);
@@ -101,6 +103,8 @@ class AuthController extends Controller
         $user = Post::create([
             "title" => $data["title"],
             "address" => $data["address"],
+            "inn" => $data["inn"],
+            "information" => $data["information"],
             "telephone" => $data["telephone"],
             "director" => $data["director"],
         ]);
