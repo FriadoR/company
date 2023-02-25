@@ -18,7 +18,7 @@
 - Использование Requests ;
 - Удален vite, установлен более привычный mix ;
 - Запуск tailwind сделан скриптом в package.json ("start": "npx tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --watch")
-- Все аккуратно распределено по папкам, проект не захломлен
+- Все аккуратно распределено по папкам
 
 ##
 ![Снимок экрана 2023-02-25 в 17 41 12](https://user-images.githubusercontent.com/103481753/221363219-1ba9b99a-cfd9-4880-aba8-780a56347f5b.png)
