@@ -16,12 +16,13 @@
 - С помощью fake() добавлены данные по компаниям и юзерам в БД ;
 - Использование Requests ;
 - Удален vite, установлен более привычный mix ;
-- Запуск tailwind сделан скриптом в package.json ("start": "npx tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --watch") ;
+- Запуск tailwind сделан скриптом в package.json ("start": "npx tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --watch")
 - Все аккуратно распределено по папкам, проект не захломлен
 
 ## Тестовый аккаунт можно не создавать, а взять готовый ниже:
 
-Account: admin.s@ya.ru
+Account: admin.s@ya.ru.  
+
 Password: RoadRRss44
 
 ## Спасибо за внимание! 
