@@ -20,10 +20,13 @@
 - Запуск tailwind сделан скриптом в package.json ("start": "npx tailwindcss -i ./resources/css/app.css -o ./public/css/app.css --watch")
 - Все аккуратно распределено по папкам, проект не захломлен
 
-## Тестовый аккаунт можно не создавать, а взять готовый ниже:
+##
+![Снимок экрана 2023-02-25 в 17 42 52](https://user-images.githubusercontent.com/103481753/221363074-9fa59eaf-19fc-4ee3-93b2-a69e95a0dcf9.png)
+![Снимок экрана 2023-02-25 в 17 43 02](https://user-images.githubusercontent.com/103481753/221363075-f984c96b-d7a2-4f87-a3f4-064ba9ff9fbc.png)
+![Снимок экрана 2023-02-25 в 17 42 40](https://user-images.githubusercontent.com/103481753/221363078-1d26c552-3910-4921-997c-b4e674fd9568.png)
+![Снимок экрана 2023-02-25 в 17 42 26](https://user-images.githubusercontent.com/103481753/221363079-2a867450-9479-4442-896e-6d8f87e647df.png)
+![Снимок экрана 2023-02-25 в 17 41 36](https://user-images.githubusercontent.com/103481753/221363080-f73cea3e-2973-45cb-a7e8-8db28fd93573.png)
+![Снимок экрана 2023-02-25 в 17 41 12](https://user-images.githubusercontent.com/103481753/221363084-ad29cb16-e6f8-4cc1-9312-898cf59f12e9.png)
 
-Account: admin.s@ya.ru.  
-
-Password: RoadRRss44
 
 ## Спасибо за внимание! 
